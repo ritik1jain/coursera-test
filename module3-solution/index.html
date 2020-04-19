@@ -4,21 +4,96 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <title>Assignment solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="navbar-brand">
+						<div id="brand-name">
+							Food LLC
+						</div>
+					</a>
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+   					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					</button>
 
-  <h1>Hello Coursera!</h1>
+          
+
+				</div>
+        <div class="hidden-sm hidden-md hidden-lg" id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav">
+            <li>
+              <a href="#item1">
+                <span class="nav-item">Chicken</span>
+              </a>
+            </li>
+            <li>
+              <a href="#item2">
+                <span class="nav-item">Beef</span>
+              </a>
+            </li>
+            <li>
+              <a href="#item3">
+                <span class="nav-item">Sushi</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+			</div> 
+		</nav>
+	</header>
+
+  <div class="container">
+    <h1 id="top">Our Menu</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <section class="item" id="item1">
+          <h3>Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna lectus, fringilla eget vestibulum nec, scelerisque id nisi. Vivamus mollis magna sit amet condimentum malesuada. Suspendisse quis quam elit. Nullam vehicula tempor nisi, eu tristique sem semper vel. Cras vitae massa sit amet purus imperdiet rhoncus id eu dolor. Praesent sit amet efficitur nisl, id scelerisque massa. Mauris gravida, magna sed congue sagittis, purus urna maximus est, sit amet rhoncus neque quam ut urna. Pellentesque molestie, tortor eget porttitor ultrices, sem dolor condimentum dui, et gravida nisi risus nec magna. Duis condimentum arcu tempor magna rutrum lobortis. Donec viverra ligula eget rutrum malesuada. Mauris id tincidunt turpis. Vestibulum feugiat felis at tellus eleifend, non dignissim magna porta. Suspendisse potenti. Vestibulum non tortor sed mi convallis porta id viverra elit. Morbi non rhoncus tortor, non posuere odio.
+
+          Vestibulum imperdiet velit vel ligula imperdiet tempus. Ut ac scelerisque erat. Sed hendrerit magna eu imperdiet efficitur. Nulla velit lacus, faucibus sed tincidunt in, rutrum vitae risus. Duis ac molestie neque, ut sagittis velit. Nulla facilisi. Praesent at hendrerit nunc. Vestibulum consequat neque sed leo interdum, eget fringilla metus aliquam.</p>
+          <a href="#top">Back To Top</a>
+        </section>
+      </div>
+    
+ <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <section class="item" id="item2">
+          <h3>Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna lectus, fringilla eget vestibulum nec, scelerisque id nisi. Vivamus mollis magna sit amet condimentum malesuada. Suspendisse quis quam elit. Nullam vehicula tempor nisi, eu tristique sem semper vel. Cras vitae massa sit amet purus imperdiet rhoncus id eu dolor. Praesent sit amet efficitur nisl, id scelerisque massa. Mauris gravida, magna sed congue sagittis, purus urna maximus est, sit amet rhoncus neque quam ut urna. Pellentesque molestie, tortor eget porttitor ultrices, sem dolor condimentum dui, et gravida nisi risus nec magna. Duis condimentum arcu tempor magna rutrum lobortis. Donec viverra ligula eget rutrum malesuada. Mauris id tincidunt turpis. Vestibulum feugiat felis at tellus eleifend, non dignissim magna porta. Suspendisse potenti. Vestibulum non tortor sed mi convallis porta id viverra elit. Morbi non rhoncus tortor, non posuere odio.
+
+          Vestibulum imperdiet velit vel ligula imperdiet tempus. Ut ac scelerisque erat. Sed hendrerit magna eu imperdiet efficitur. Nulla velit lacus, faucibus sed tincidunt in, rutrum vitae risus. Duis ac molestie neque, ut sagittis velit. Nulla facilisi. Praesent at hendrerit nunc. Vestibulum consequat neque sed leo interdum, eget fringilla metus aliquam.</p>
+           <a href="#top">Back To Top</a>
+        </section>
+      </div>
+     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <section class="item" id="item3">
+          <h3>Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna lectus, fringilla eget vestibulum nec, scelerisque id nisi. Vivamus mollis magna sit amet condimentum malesuada. Suspendisse quis quam elit. Nullam vehicula tempor nisi, eu tristique sem semper vel. Cras vitae massa sit amet purus imperdiet rhoncus id eu dolor. Praesent sit amet efficitur nisl, id scelerisque massa. Mauris gravida, magna sed congue sagittis, purus urna maximus est, sit amet rhoncus neque quam ut urna. Pellentesque molestie, tortor eget porttitor ultrices, sem dolor condimentum dui, et gravida nisi risus nec magna. Duis condimentum arcu tempor magna rutrum lobortis. Donec viverra ligula eget rutrum malesuada. Mauris id tincidunt turpis. Vestibulum feugiat felis at tellus eleifend, non dignissim magna porta. Suspendisse potenti. Vestibulum non tortor sed mi convallis porta id viverra elit. Morbi non rhoncus tortor, non posuere odio.
+
+          Vestibulum imperdiet velit vel ligula imperdiet tempus. Ut ac scelerisque erat. Sed hendrerit magna eu imperdiet efficitur. Nulla velit lacus, faucibus sed tincidunt in, rutrum vitae risus. Duis ac molestie neque, ut sagittis velit. Nulla facilisi. Praesent at hendrerit nunc. Vestibulum consequat neque sed leo interdum, eget fringilla metus aliquam.</p>
+           <a href="#top">Back To Top</a>
+        </section>
+      </div>
+    
+    </div>
+  </div>
+  <a href="#top" class="page-up">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </a>
+
+
+
+  
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
